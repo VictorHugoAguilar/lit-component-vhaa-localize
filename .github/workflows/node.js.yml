@@ -45,6 +45,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+        registry-url: 'https://registry.npmjs.org'
 
     - name: Install dependencies
       run: |
@@ -58,3 +59,8 @@ jobs:
           
     - name: Run Test Coverage
       run: npm run test:tc
+      
+    - name: Publish
+      run: npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
