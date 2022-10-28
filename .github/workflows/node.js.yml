@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest    
     defaults:
        run:
-         working-directory: ./server/
+         shell: bash
+         working-directory: 'server'
 
     strategy:
       matrix:
