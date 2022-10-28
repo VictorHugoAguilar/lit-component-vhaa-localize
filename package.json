@@ -8,7 +8,6 @@
         "test:kac": "karma start --coverage",
         "test:tw": "web-test-runner test/*.test.js test/**/*.test.js  --node-resolve --watch",
         "test:tc": "web-test-runner test/*.test.js test/**/*.test.js --node-resolve --coverage",
-        "publish": "npm run pub && git add . && git commit -m \"update\" && git push",
         "pub": "git add . && git commit -m \"update\" && git push && npm version patch"
     },
     "author": "Victor Hugo Aguilar <victorhugoaguilar@aol.com>",
