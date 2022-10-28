@@ -3,10 +3,6 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/victorhugoaguilar/lit-component-vhaa-localize.git"
-    },
     "scripts": {
         "test:kaw": "karma start --auto-watch",
         "test:kac": "karma start --coverage",
