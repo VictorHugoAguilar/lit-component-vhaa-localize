@@ -25,7 +25,7 @@ jobs:
     - name: test
       env:
         NODE_AUTH_TOKEN: ${secrets.NPM_TOKEN}
-      run: echo //registry.npmjs.org/:_authToken=$NPM_TOKEN > .npmrc
+      run: echo ${secrets.NPM_TOKEN}
     
     - name: Cache node modules
       id: cache-npm
