@@ -63,4 +63,4 @@ jobs:
     - name: Publish
       run: npm publish
       env:
-        NODE_AUTH_TOKEN: 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
+        NODE_AUTH_TOKEN: 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
