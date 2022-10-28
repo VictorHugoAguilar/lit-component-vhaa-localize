@@ -1,6 +1,6 @@
 {
     "name": "@black_sheeps/vhaa-localize",
-    "version": "1.0.5",
+    "version": "1.0.2",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -12,7 +12,7 @@
         "pub": "git add . && git commit -m \"update\" && git push && npm version patch"
     },
     "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
+        "@black_sheeps:registry": "https://npm.pkg.github.com"
     },
     "author": "Victor Hugo Aguilar <victorhugoaguilar@aol.com>",
     "license": "MIT",
