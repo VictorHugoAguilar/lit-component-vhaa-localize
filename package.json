@@ -1,16 +1,20 @@
 {
-    "name": "@victorhugoaguilar/localize",
+    "name": "@black_sheeps/vhaa-localize",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/victorhugoaguilar/lit-component-vhaa-localize.git"
+    },
     "scripts": {
         "test:kaw": "karma start --auto-watch",
         "test:kac": "karma start --coverage",
         "test:tw": "web-test-runner test/*.test.js test/**/*.test.js  --node-resolve --watch",
         "test:tc": "web-test-runner test/*.test.js test/**/*.test.js --node-resolve --coverage"
     },
-    "author": "Victor Hugo Aguilar",
-    "license": "ISC",
+    "author": "Victor Hugo Aguilar <victorhugoaguilar@aol.com>",
+    "license": "MIT",
     "dependencies": {
         "lit": "^2.4.0",
         "singleton-manager": "^1.5.0"
@@ -37,8 +41,5 @@
         "karma-coverage-istanbul-reporter": "^3.0.3",
         "karma-jasmine": "^5.1.0",
         "sinon": "^14.0.1"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
     }
 }
