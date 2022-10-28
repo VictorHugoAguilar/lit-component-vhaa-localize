@@ -51,6 +51,6 @@ describe('localize', () => {
 
   it('is configured to fallback to the locale "en-GB"', () => {
     const { fallbackLocale } = getProtectedMembers(localize);
-    expect(fallbackLocale).to.equal('en-GB');
+    expect(fallbackLocale).to.equal('en-GBERROR');
   });
 });
