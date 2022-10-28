@@ -11,9 +11,6 @@
         "publish": "npm run pub && git add . && git commit -m \"update\" && git push",
         "pub": "git add . && git commit -m \"update\" && git push && npm version patch"
     },
-    "publishConfig": {
-        "@black_sheeps:registry": "https://npm.pkg.github.com"
-    },
     "author": "Victor Hugo Aguilar <victorhugoaguilar@aol.com>",
     "license": "MIT",
     "dependencies": {
