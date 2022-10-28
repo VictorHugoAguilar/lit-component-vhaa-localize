@@ -61,6 +61,6 @@ jobs:
       run: npm run test:tc
       
     - name: Publish
-      run: npm version patch && npm publish --access public
+      run: npm publish --access public
       env:
         NODE_AUTH_TOKEN: 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
