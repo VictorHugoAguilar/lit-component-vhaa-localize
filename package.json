@@ -1,7 +1,7 @@
 {
     "name": "@black_sheeps/vhaa-localize",
     "version": "1.0.2",
-    "description": "",
+    "description": "localize",
     "main": "index.js",
     "scripts": {
         "test:kaw": "karma start --auto-watch",
