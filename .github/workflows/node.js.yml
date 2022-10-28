@@ -59,6 +59,9 @@ jobs:
           
     - name: Run Test Coverage
       run: npm run test:tc
+
+    - name: Update Version
+      run: npm version patch
       
     - name: Publish
       run: npm publish --access public
