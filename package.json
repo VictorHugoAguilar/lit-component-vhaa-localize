@@ -1,5 +1,5 @@
 {
-    "name": "vhaa-localize",
+    "name": "@victorhugoaguilar/vhaa-localize",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -12,11 +12,13 @@
     "author": "Victor Hugo Aguilar",
     "license": "ISC",
     "dependencies": {
-        "@bundled-es-modules/fetch-mock": "^6.5.2",
-        "@bundled-es-modules/message-format": "^6.0.4",
+        "lit": "^2.4.0",
         "singleton-manager": "^1.5.0"
     },
     "devDependencies": {
+        "wct-browser-legacy": "^1.0.2",
+        "@bundled-es-modules/message-format": "^6.0.4",
+        "@bundled-es-modules/fetch-mock": "^6.5.2",
         "@open-wc/dedupe-mixin": "^1.3.1",
         "@open-wc/testing": "^3.1.6",
         "@open-wc/testing-helpers": "^2.1.3",
@@ -34,8 +36,9 @@
         "karma-chrome-launcher": "^3.1.1",
         "karma-coverage-istanbul-reporter": "^3.0.3",
         "karma-jasmine": "^5.1.0",
-        "lit": "^2.4.0",
-        "sinon": "^14.0.1",
-        "wct-browser-legacy": "^1.0.2"
+        "sinon": "^14.0.1"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
     }
 }
