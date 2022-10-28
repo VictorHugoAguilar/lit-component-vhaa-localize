@@ -1,6 +1,6 @@
 {
     "name": "@black_sheeps/vhaa-localize",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "localize",
     "main": "index.js",
     "scripts": {
